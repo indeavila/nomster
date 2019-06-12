@@ -18,7 +18,7 @@
       </div>
     <% end %>
   <% if place.photos.present? %>
-    <%= image_tag place.photos.last.picture.url %>
+    <%= image_tag place.photos.last.picture.url class:"photo" %>
   <% end %>
   </div>
 <% end %>
